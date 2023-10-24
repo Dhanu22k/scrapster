@@ -1,0 +1,60 @@
+/* Css for Orders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #5152525b;
+  }
+header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .tableHeader{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  table {
+    border: 1px solid #9c9a9a;
+    border-collapse: collapse;
+    margin-left: 5%;
+    width: 90%;
+    box-shadow: 2px -2px 4px rgb(42, 41, 41)
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+  background-color: #bcbf8c;
+  border-bottom: 1px solid black;
+}
+
+tr{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid black;
+}
+

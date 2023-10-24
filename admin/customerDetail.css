@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  background-color: #5152525b;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+.back-btn {
+  margin: 4px;
+}
+
+body .password-field {
+  position: relative;
+}
+.password {
+  outline: none;
+  border: none;
+}
+body .password-field #toggler {
+  position: relative;
+
+  cursor: pointer;
+}
+
+.status-text{
+    font-weight: bolder;
+    text-shadow: 1px 0px 1px black;
+}
